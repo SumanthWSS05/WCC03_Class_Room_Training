@@ -1,6 +1,7 @@
 package reading;
 
 import java.io.FileOutputStream;
+import java.io.FileWriter;
 import java.io.IOException;
 
 public class ToWriteDataToAFile {
@@ -20,6 +21,11 @@ public class ToWriteDataToAFile {
 		fos.write('$');
 		
 		System.out.println("Written successfully");
+		
+//		FileWriter fw = new FileWriter("E:\\WSS05-Selenium\\SS.txt",true);
+//		fw.write(" We are appending the data into the existing file");
+//		fw.flush();
+		
 	}
 
 }

@@ -21,8 +21,8 @@ public class TC_Login_001 {    //Test case id
 		String expectedHomePageTitle = "Shoperstack | Home";
 		
 		//Test Data
-		String usernameData = "shubhra@gmail.com";
-		String passwordData = "Password@123";
+		String usernameData = "adminadmin";
+		String passwordData = "adminpass@123";
 		
 		//Step 1 : Open "Chrome" browser and enter test URL
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");

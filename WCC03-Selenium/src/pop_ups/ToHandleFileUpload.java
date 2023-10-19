@@ -22,5 +22,5 @@ public class ToHandleFileUpload {
 		Thread.sleep(1000);
 		Runtime.getRuntime().exec("./AutoIt/enterText.exe");
 	}
-	//Try using autoIt script un Auth pop-up and Notification pop-up
+	//Try using autoIt script on Auth pop-up and Notification pop-up
 }

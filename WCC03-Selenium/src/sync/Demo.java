@@ -23,6 +23,5 @@ public class Demo {
 		explicitWait.until(ExpectedConditions.visibilityOfElementLocated(By.id("usernamee")));
 		driver.findElement(By.id("username")).sendKeys("sumanth");
 		driver.findElement(By.name("pwd")).sendKeys("");
-		
 	}
 }

@@ -1,7 +1,6 @@
 package browserActions;
 
 import org.openqa.selenium.Point;
-import org.openqa.selenium.WebDriver.Window;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class ToMoveTheBrowser {

@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
  * 19th Oct 2023
  *
  */
-public class TC_Login_001 {    //Test case id  
+public class TC_DS_Login_001 {    //Test case id  
 
 	public static void main(String[] args) {   //test case name
 		

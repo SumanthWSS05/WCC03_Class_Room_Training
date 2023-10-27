@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class WildCraft {
 
-	@Test 
+	@Test (groups = {"bags","smoke"})
 	public void launchWildCraft() {
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();

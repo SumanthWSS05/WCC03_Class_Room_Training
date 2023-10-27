@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class Skybags {
 
-	@Test 
+	@Test (groups = "bags")
 	public void launchSkyBags() {
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();

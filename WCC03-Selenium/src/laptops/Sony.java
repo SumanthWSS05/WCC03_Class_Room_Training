@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class Sony {
 
-	@Test 
+	@Test (groups = {"comp","regg"}) 
 	public void launchSony() {
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();

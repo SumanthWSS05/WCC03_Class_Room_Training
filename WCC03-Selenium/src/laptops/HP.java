@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class HP {
 
-	@Test 
+	@Test (groups = "comp") 
 	public void launchHP() {
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();

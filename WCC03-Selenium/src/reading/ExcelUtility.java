@@ -26,4 +26,9 @@ public class ExcelUtility {
 		}
 		return workbook.getSheet(sheetName).getRow(rowNum).getCell(cellNum).toString();
 	}
+	
+	public static void readData(String sheetName, int rowNum, int cellNum) throws  IOException {
+		FileInputStream fis = new FileInputStream("");
+		Workbook workbook = WorkbookFactory.create(fis);
+	}
 }

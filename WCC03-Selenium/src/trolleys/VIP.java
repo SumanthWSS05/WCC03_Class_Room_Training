@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class VIP {
 
-	@Test 
+	@Test (groups = "bags")
 	public void launchVIP() {
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();

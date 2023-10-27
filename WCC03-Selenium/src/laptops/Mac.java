@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class Mac {
 
-	@Test 
+	@Test(groups = "comp") 
 	public void launchMac() {
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();

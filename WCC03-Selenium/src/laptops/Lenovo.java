@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class Lenovo {
 
-	@Test(invocationCount = 30, threadPoolSize = 30)
+	@Test(invocationCount = 3, threadPoolSize = 3 , groups = "comp" , enabled = false)
 	public void launchLenovo() {
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
@@ -16,7 +16,7 @@ public class Lenovo {
 		driver.quit();
 	}
 	
-	@Test(priority = -1)
+	@Test(priority = -1 , groups = "comp") 
 	public void launchStoreLenovo() {
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();

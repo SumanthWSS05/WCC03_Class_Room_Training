@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class Dell {
 
-	@Test 
+	@Test (groups = {"comp","smoke"}) 
 	public void launchDell() {
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();

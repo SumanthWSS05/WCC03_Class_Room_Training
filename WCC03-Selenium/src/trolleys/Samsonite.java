@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class Samsonite {
 
-	@Test 
+	@Test (groups = "bags", dependsOnGroups = {"regg"})
 	public void launchSamsonite() {
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();

@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class AmericanTourister {
 
-	@Test
+	@Test (groups = {"bags","regg"})
 	public void launchAmericanTourister() {
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();

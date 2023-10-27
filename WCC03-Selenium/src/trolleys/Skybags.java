@@ -7,8 +7,8 @@ import org.testng.annotations.Test;
 
 public class Skybags {
 
-	@Test (groups = "bags")
-	public void launchSkyBags() {
+	@Test (groups = "bags", dependsOnGroups = "smoke")
+	public void launchskybags() {
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS);

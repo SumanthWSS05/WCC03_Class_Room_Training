@@ -2,6 +2,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
+  <parameter name="URL" value="https://luxor.in/pen/fountain-pens.html"></parameter>
     <classes>
       <class name="laptops.Lenovo"/>
       <class name="laptops.Dell"/>

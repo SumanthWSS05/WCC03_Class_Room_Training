@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="para1" value="Hello"></parameter>
+  <parameter name="para4" value="Hi"></parameter>
+  <parameter name="para2" value="Hola"></parameter>
+  <parameter name="para3" value="Namaste"></parameter>
+    <classes>
+      <class name="pens.ReadDataFromXML"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

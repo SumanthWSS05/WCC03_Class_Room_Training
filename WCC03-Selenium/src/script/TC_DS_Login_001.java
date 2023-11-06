@@ -16,7 +16,7 @@ public class TC_DS_Login_001 {    //Test case id
 	public static void main(String[] args) {   //test case name
 		
 		//Expected Data
-		String expectedWelcomePageTitle = "Shoperstack";
+		String expectedWelcomePageTitle = "Shoperstak";
 		String expectedLoginPageTitle = "Shoperstack | Login";
 		String expectedHomePageTitle = "Shoperstack | Home";
 		
